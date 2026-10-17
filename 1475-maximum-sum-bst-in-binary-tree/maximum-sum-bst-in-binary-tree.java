@@ -48,7 +48,7 @@ class Solution {
 
     }
     public int maxSumBST(TreeNode root) {
-        
+        maxsum = 0;
         largestBST(root);
         return maxsum;
     }
